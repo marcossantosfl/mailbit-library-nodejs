@@ -1,12 +1,12 @@
 const axios = require('axios');
 
 class Mailbit {
-    constructor(apiKey) {
+    constructor(apiKey, baseUrl = 'https://public-api.mailbit.io') {
         if (!apiKey) {
             throw new Error("API key is required"); 
         }
         this.apiKey = apiKey;
-        this.baseUrl = 'https://public-api.mailbit.io';
+        this.baseUrl = baseUrl;
     }
 
     static generateErrorMessage(code, message) {
