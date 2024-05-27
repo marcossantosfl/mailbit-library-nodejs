@@ -1,6 +1,6 @@
 {
   "name": "mailbit-library-nodejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mailbit is a Node.js library for sending emails using the Mailbit API.",
   "main": "mailbit.js",
   "scripts": {
