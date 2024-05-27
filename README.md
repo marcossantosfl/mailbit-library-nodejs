@@ -7,4 +7,4 @@ Mailbit is a Node.js library for sending emails using the Mailbit API. It provid
 To install the Mailbit library, run:
 
 ```sh
-npm install mailbit 
+npm install mailbit-library-nodejs 
